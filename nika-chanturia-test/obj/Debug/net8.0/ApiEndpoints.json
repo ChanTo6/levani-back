@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "nika_chanturia_test.Controllers.HomeController",
+    "Method": "AddBook",
+    "RelativePath": "api/Home/AddBook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newBook",
+        "Type": "nika_chanturia_test.Model.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "nika_chanturia_test.Controllers.HomeController",
+    "Method": "InsertProducts",
+    "RelativePath": "api/Home/BuyBooks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookPurchaseRequest",
+        "Type": "nika_chanturia_test.Model.BuyBookRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "nika_chanturia_test.Controllers.HomeController",
+    "Method": "FetchBooks",
+    "RelativePath": "api/Home/FetchBooks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "nika_chanturia_test.Controllers.HomeController",
+    "Method": "get_purchased_books",
+    "RelativePath": "api/Home/get_purchased_books",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
